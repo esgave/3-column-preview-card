@@ -29,13 +29,17 @@ h2 {
     justify-content: center;
     align-items: center;
     min-height: 95vh;
-    padding: 0;
+    margin: 5rem 0;
 }
 
 .container {
     display: flex;
-    max-width: 850px;
-    height: 450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+    min-height: 95vh;
 }
 
 .first-column {
@@ -55,7 +59,7 @@ h2 {
 }
 
 .text-padding {
-    padding: 20px;
+    padding: 5px;
 }
 
 .button-style {
@@ -87,18 +91,21 @@ button:hover {
     cursor: pointer;
 }
 
-@media(max-width: 767px) {
+@media(min-width: 768px) {
+
     .container-parent {
         display: flex;
+        margin:0;
     }
 
     .container {
         display: flex;
-        flex-direction: column;
-        width: 90%;
+        flex-direction: row;
+        height: 400px;
+        max-width: 750px;
     }
 
     .text-padding {
-        padding: 5px;
+        padding: 20px;
     }
 }
