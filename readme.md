@@ -6,6 +6,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ![See screenshot](./screenshot1.png)
 ![See screenshot](./screenshot2.png)
+![See screenshot](./screenshot3.png)
 
 ### Built with
 
