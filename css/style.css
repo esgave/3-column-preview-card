@@ -1,0 +1,104 @@
+:root {
+    --BrightOrange: hsl(31, 77%, 52%);
+    --DarkCyan: hsl(184, 100%, 22%);
+    --VeryDarkCyan: hsl(179, 100%, 13%);
+    --TransparentWhite: hsla(0, 0%, 100%, 0.75);
+    --VeryLightGray: hsl(0, 0%, 95%);
+    --FontTitles: 'Big Shoulders Display', cursive;
+    --FontParagraphs: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-color: var(--VeryLightGray);
+    text-align: left;
+    font-size: 15px;
+    font-family: var(--FontParagraphs);
+    color: var(--TransparentWhite);
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: var(--FontTitles);
+    text-transform: uppercase;
+    font-size: 30px;
+    color: var(--VeryLightGray);
+}
+
+.container-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 850px;
+    height: 450px;
+}
+
+.first-column {
+    background-color: var(--BrightOrange);
+}
+
+.second-column {
+    background-color: var(--DarkCyan);
+}
+
+.third-column {
+    background-color: var(--VeryDarkCyan);
+}
+
+.card {
+    padding: 40px;
+}
+
+.text-padding {
+    padding: 20px;
+}
+
+.button-style {
+    border: none;
+    font-size: 15px;
+    font-family: var(--FontParagraphs);
+    background-color: var(--VeryLightGray);
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 12px 23px;
+    border-radius: 25px;
+    overflow: hidden;
+    perspective: 1px;
+}
+
+.button-first-column {
+    color: var(--BrightOrange);
+}
+
+.button-second-column {
+    color: var(--DarkCyan);
+}
+
+.button-third-column {
+    color: var(--VeryDarkCyan);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media(max-width: 767px) {
+    .container-parent {
+        display: flex;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .text-padding {
+        padding: 5px;
+    }
+}
