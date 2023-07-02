@@ -62,8 +62,8 @@ h2 {
     padding: 5px;
 }
 
-.button-style {
-    border: none;
+.link {
+    text-decoration: none;
     font-size: 15px;
     font-family: var(--FontParagraphs);
     background-color: var(--VeryLightGray);
@@ -75,20 +75,23 @@ h2 {
     perspective: 1px;
 }
 
-.button-first-column {
+.link--first-column {
     color: var(--BrightOrange);
 }
 
-.button-second-column {
+.link--second-column {
     color: var(--DarkCyan);
 }
 
-.button-third-column {
+.link--third-column {
     color: var(--VeryDarkCyan);
 }
 
-button:hover {
+a:hover {
     cursor: pointer;
+    background: none;
+    color: var(--TransparentWhite);
+    border: 2px solid var(--TransparentWhite);
 }
 
 @media(min-width: 768px) {
