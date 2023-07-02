@@ -7,7 +7,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -27,11 +26,6 @@ Users should be able to:
 ![See screenshot](./screenshot1.png)
 ![See screenshot](./screenshot2.png)
 ![See screenshot](./screenshot3.png)
-
-### Links
-
-- [Solution URL](https://www.frontendmentor.io/solutions/responsive-preview-card-component-DZ-eca-YCG)
-- [Live site URL](https://esgave.github.io/3-column-preview-card/)
 
 ## My process
 
