@@ -25,7 +25,6 @@ Users should be able to:
 
 ![See screenshot](./screenshot1.png)
 ![See screenshot](./screenshot2.png)
-![See screenshot](./screenshot3.png)
 
 ## My process
 
