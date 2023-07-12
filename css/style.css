@@ -8,6 +8,18 @@
     --FontParagraphs: 'Lexend Deca', sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /* Box Model Hack **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -15,7 +27,7 @@ body {
     min-height: 95vh;
     background-color: var(--VeryLightGray);
     text-align: left;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: var(--FontParagraphs);
     color: var(--TransparentWhite);
     line-height: 1.5;
@@ -24,25 +36,25 @@ body {
 h2 {
     font-family: var(--FontTitles);
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 3rem;
     color: var(--VeryLightGray);
 }
 
-.container {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 1rem;
     margin: 1rem;
 }
 
 .card {
-    padding: 40px;
+    padding: 4.5rem;
 }
 
 .text-padding {
-    padding: 5px;
+    padding: 3rem;
 }
 
 .first-column {
@@ -58,15 +70,20 @@ h2 {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: var(--FontParagraphs);
     background-color: var(--VeryLightGray);
     text-align: center;
     justify-content: space-evenly;
-    padding: 12px 23px;
-    border-radius: 25px;
+    padding: 1rem 2rem;
+    border-radius: 2.5rem;
     overflow: hidden;
+}
+
+.text-padding {
+    padding: 0;
 }
 
 .first-column a{
@@ -85,19 +102,18 @@ a:hover {
     cursor: pointer;
     background: none;
     color: var(--TransparentWhite);
-    border: 2px solid var(--TransparentWhite);
+    border: .2 solid var(--TransparentWhite);
 }
 
 @media(min-width: 768px) {
 
-    .container {
+    main {
         display: flex;
         flex-direction: row;
-        max-height: 400px;
-        max-width: 750px;
+        width: 90rem;
     }
 
     .text-padding {
-        padding: 20px;
+        padding: 3.5rem;
     }
 }
